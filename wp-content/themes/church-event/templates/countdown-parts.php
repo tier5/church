@@ -1,0 +1,5 @@
+<span class="wpvc-days"><span class="value">&ndash;</span> <span class="word" data-singular="<?php esc_attr_e( 'Day', 'church-event' ) ?>" data-plural="<?php esc_attr_e( 'Days', 'church-event' ) ?>"><?php _e( 'Days', 'church-event' ) ?></span></span>
+<span class="wpvc-hours"><span class="value">&ndash;</span> <span class="word" data-singular="<?php esc_attr_e( 'Hour', 'church-event' ) ?>" data-plural="<?php esc_attr_e( 'Hours', 'church-event' ) ?>"><?php _e( 'Hours', 'church-event' ) ?></span></span>
+<?php if ( $split ) : ?><div class="split"></div><?php endif ?>
+<span class="wpvc-minutes"><span class="value">&ndash;</span> <span class="word" data-singular="<?php esc_attr_e( 'Minute', 'church-event' ) ?>" data-plural="<?php esc_attr_e( 'Minutes', 'church-event' ) ?>"><?php _e( 'Minutes', 'church-event' ) ?></span></span>
+<span class="wpvc-seconds"><span class="value">&ndash;</span> <span class="word" data-singular="<?php esc_attr_e( 'Second', 'church-event' ) ?>" data-plural="<?php esc_attr_e( 'Seconds', 'church-event' ) ?>"><?php _e( 'Seconds', 'church-event' ) ?></span></span>
